@@ -30,7 +30,7 @@
           <div class="now-playing">
             <strong>舊情雨MV</strong><span>MV製作 · 04:29</span>
             <div class="progress-track"><i id="heroProgress"></i></div>
-            <div class="transport"><button id="skipBack" aria-label="倒退十秒">◀</button><button id="muteToggle" aria-label="開啟聲音"><span id="soundIcon">▶</span></button><button id="skipForward" aria-label="前進十秒">▶</button></div>
+            <div class="transport"><button id="skipBack" aria-label="倒退十秒">◀</button><button id="pauseToggle" aria-label="暫停影片"><span id="pauseIcon">Ⅱ</span></button><button id="muteToggle" aria-label="開啟聲音"><span id="soundIcon">♩</span></button><button id="skipForward" aria-label="前進十秒">▶</button></div>
           </div>
         </div>
       </section>
@@ -47,6 +47,7 @@
       </section>
       <footer class="content-width">© 2026 Gyokusan</footer>
     </main>
+    <style>.stop-play{position:absolute;z-index:5;top:14px;left:14px;border:0;border-radius:999px;padding:8px 12px;background:rgba(25,24,22,.78);color:#fff;font:12px 'Noto Sans TC',sans-serif;cursor:pointer}</style>
     <script src="script.js"></script>
   </body>
 </html>
